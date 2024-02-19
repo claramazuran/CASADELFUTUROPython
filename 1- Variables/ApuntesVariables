@@ -1,0 +1,28 @@
+1- La funcion "print()" no se banca como argumento una declaracion ni asignacion
+2- Para imprimir el tipo de una variable uso la funcion "type()". No hace falta hacer un print con el type
+3- Python es un lenguaje secuencial, es decir, que lee de arriba para abajo. Si no tengo definido una variable mas arriba y le asigno algo me da error. Es interpretado, lo que quiere decir que se analizan los tipos de datos, estructura etc en tiempo de ejecucion y linea por linea.
+4- En python no existen las constantes, ya que se pueden podificar. Pero para representar constantes se usan MAYUSCULAS.
+5- Las comilas simples '' son lo mismo que "" las comillas dobles, hablamos de strings
+
+LISTAS
+1- Para hacer una lista defino una variable y la igualo a los corchetes lista1 = [...,....,....,...]. Tambien puedo hacer asi lista1 = list([...,....,....,...])
+2- Las listas se pueden modificar y pueden tener tipos de datos distintos.
+3- El metodo insertar lo que hace es insertar en una posisicion determinada lo que le decimos. Para llamarlo, como las listas son tratadas como una clase e "insert" es el metodo de esta clase de listas lo tengo que llamar con nombredelalista.insert(posicionquequieromodificar, loquequieroponer). A LO QUE QUIERO PONER LO TENGO QUE PONER SI O SI ENTRE ""
+
+TUPLAS
+1- Para hacer una tupla defino una variable y la igualo a los parentesis tupla1 = (...,....,....,...). Tambien puedo hacer asi para hacer una tupla vacia tupla1 = tuple(...,....,....,...)
+2- Las tuplas NO se pueden modificar y pueden tener tipos de datos distintos.
+3- El constructor de tuplas tuple() solo recibe elemntos iterables, es decir, por ejemplo una lista o un conjunto de numero o un conjunto de caracteres. Y solo recibe un elemento. Por ejemplo, si en este caso "tupla = tuple(["nike", "adidas", "ripcurl", "puma", "we"])" no pongo los corchetes me sale un error porque el constructor puede solo admitir a un elemento. POr lo tanto hice una lista que contiene a todos los otros elementos.
+
+DICCIONARIOS
+1-Se escriben entre {} y tenemos diferentes "claves" (es muy parecido a un objeto en js). Ejemplo:
+persona1 = {"nombre":"Clara", "apellido": "Mazuran", "edad": 20, "hobbies": ["Andar en bici", "Jugar al voley", "Estudiar"]}
+Las claves son "nombre", "apellido", etc.
+2- Para acceder a un elemento tengo que poner su clave. Ejemplo: persona1["nombre"]
+3- Los diccionarios se pueden modificar. Se puede agregar un elemento utilizando una clave que no exista. Tambien se puede modificar el valor de un elemento utilizando la clave.
+
+FOR
+1- Estructura: for variableQueVaAIterar in range([star], stop, [step]):
+    star = es el numero en el que va a empezar, si no le pongo nada empieza en cero
+    stop = es el numero que va si o si, es el numero en el que va a parar o mejor es la cantidad de veces que va a iterar
+    step = es el incremento, si no le pongo nada se toma como que es el paso de 1
