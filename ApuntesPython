@@ -3,6 +3,9 @@
 3- Python es un lenguaje secuencial, es decir, que lee de arriba para abajo. Si no tengo definido una variable mas arriba y le asigno algo me da error. Es interpretado, lo que quiere decir que se analizan los tipos de datos, estructura etc en tiempo de ejecucion y linea por linea.
 4- En python no existen las constantes, ya que se pueden podificar. Pero para representar constantes se usan MAYUSCULAS.
 5- Las comilas simples '' son lo mismo que "" las comillas dobles, hablamos de strings
+6- f"{numero_2} es mayor" LA F VA AFUERA DE LAS COMILLAS PARA QUE FUNCIONE
+7- El == me compara el tipo de dato y que tenga el mismo dato guardado. Basicamente si son identicas dos var.
+8- El and logico en python es "and", "or", "not".
 
 LISTAS
 1- Para hacer una lista defino una variable y la igualo a los corchetes lista1 = [...,....,....,...]. Tambien puedo hacer asi lista1 = list([...,....,....,...])
